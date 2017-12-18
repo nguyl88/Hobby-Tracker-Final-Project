@@ -1,6 +1,6 @@
 
 import java.util.*;
-
+//This is where all the comparator are stored.
 public class SortLikesComparable implements Comparator<LinkedList<MemberLikes> >{
 	@Override
 	public int compare(LinkedList<MemberLikes> list1, LinkedList<MemberLikes> list2) {
@@ -13,8 +13,8 @@ class SortByDate implements Comparator<Date> {
 
 	@SuppressWarnings("deprecation")
 	@Override
-	public int compare(Date list1, Date list2) {
-		return Integer.compare(list1.getDate(), list2.getDate());
+	public int compare(Date date1, Date date2) {
+		return date1.compareTo(date2);
 	}
 	
 }
