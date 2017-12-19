@@ -45,7 +45,7 @@ public class MemberArticles implements Serializable{
 
 	@Override
 	public String toString() {
-		return "MemberArticles [articles=" + articles + ", tags=" + tags + ", time=" + time + "]";
+		return  articles + " \n Tags:" + tags + " \n Time/Date:" + time + "\n";
 	}
 
 	public static boolean isChecked() {

@@ -2,9 +2,7 @@ import java.io.Serializable;
 import java.util.LinkedList;
 
 public class MemberLikes implements Serializable {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	private boolean liked;
 	private Member m;

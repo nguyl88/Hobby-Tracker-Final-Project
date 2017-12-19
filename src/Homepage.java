@@ -142,7 +142,7 @@ public class Homepage {
 		return newStage;
 	}
 	public void logout() {
-		//Not implemented
+		newStage.getOnCloseRequest();
 	}
 
 	public void searchUsers() throws FileNotFoundException, ClassNotFoundException, IOException {
